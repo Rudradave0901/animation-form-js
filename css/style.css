@@ -1,0 +1,29 @@
+/* ==================================================================
+    Project Name: Guess The Number Game With Animation Form.
+    Description: HTML5, CSS3, JAVASCRIPT and Fully Responsive Website Design.
+    Author: Anonymous
+    Author URI: https://www.glorywebs.com/
+    Version: 1.0
+    ================================================================== */
+
+/* =========================== 
+    Common CSS
+   =========================== */
+body { background: #222431; }
+#particles-js { position: absolute; width: 100%; height: 100%; z-index: -1; }
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {  -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+/* ===========================
+    Game Section CSS
+=========================== */
+.game-section { padding: 40px 0px 20px; }/* position-relative */
+.game-section .main-contant-wrap { display: grid; grid-template-columns: 45% 55%; background: #f6f6f6; border-radius: 20px; } /* position-absolute w-75 h-auto */
+.game-section .main-contant-wrap .left-side-image { background-image: url(../images/taddy-side-image.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 20px 0 0 20px; }
+
+.game-section .main-contant-wrap .right-side-form { padding: 30px 40px 60px; }
+.game-section .main-contant-wrap .right-side-form .myForm h1 { font-size: 25px; font-weight: 700; margin-bottom: 0; }
+.game-section .main-contant-wrap .right-side-form .myForm h2 { font-size: 20px; font-weight: 700; margin-bottom: 0; }
+.game-section .main-contant-wrap .right-side-form input {  width: 100%; padding: 12px 20px; border: 2px solid #ccc; margin: 4px 0 0px; font-size: 18px; font-weight: 600; transition: all 0.5s; }
+.game-section .main-contant-wrap .right-side-form input:focus { box-shadow: none; border: 2px solid #000; }
+.game-section .main-contant-wrap .right-side-form .guess-btn { width: 100%; font-size: 14px; font-weight: 600; padding: 10px 0px; background: #222431; border: 1px solid #222431; margin: 12px 0 24px; transition: all 0.5s; }
+.game-section .main-contant-wrap .right-side-form .guess-btn:hover { background: 0 0; color: #131313; }
